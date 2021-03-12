@@ -6,12 +6,14 @@ from pythonping import ping
 
 def measure(channel):
     try:
-        response_list = ping('www.google.de', size=40, count=3, timeout=3)
+        server = '8.8.8.8'
+        timenow = time.asctime( time.localtime(time.time()))
+        response_list = ping(server, size=40, count=3, timeout=3)
         ping_median = response_list.rtt_avg_ms
-        print(ping_median)
+        print(f'The ping to {server} at {timenow} is {ping_median}ms')
         # write
         response = channel.update({'field1': ping_median})
-        print(response)
+        #print(response)
 
     except:
         print("connection failed")
@@ -22,9 +24,9 @@ def measure(channel):
 
 if __name__ == "__main__":
     from credentials import *
-    channel = thingspeak.Channel(id=CHANNEL_ID, api_key=READ_KEY)
-    measure(channel)
-    # while True:
-    #     measure(channel)
-    #     # free account has an api limit of 15sec
-    #     time.sleep(15)
+    channel = thingspeak.Channel(id=CHANNEL_ID, api_key=API_KEY)
+    while True:
+        measure(channel)
+        # free account has an api limit of 15sec
+        time.sleep(20)
+
