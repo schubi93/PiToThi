@@ -4,6 +4,7 @@
 
 ```shell
 pip3 install thingspeak
+pip3 install pythonping
 ```
 
 ## Autostart
