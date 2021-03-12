@@ -2,6 +2,10 @@
 
 ## Dependencies
 
+If needed, install `pip3` via `sudo apt install python3-pip`
+
+Afterwards, install dependencies:
+
 ```shell
 pip3 install thingspeak
 pip3 install pythonping
