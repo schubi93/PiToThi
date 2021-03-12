@@ -8,7 +8,7 @@ def measure(channel):
     try:
         server = '8.8.8.8'
         timenow = time.asctime( time.localtime(time.time()))
-        response_list = ping(server, size=40, count=3, timeout=3)
+        response_list = ping(server, size=40, count=10, timeout=3)
         ping_median = response_list.rtt_avg_ms
         print(f'The ping to {server} at {timenow} is {ping_median}ms')
         # write
