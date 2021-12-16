@@ -1,12 +1,12 @@
-<img align="right" height="250" alt="Schubi93" src="misc/PiToThi.png"/>
+<img align="right" height="250" alt="Schubi93" src="misc/PiToThi.png"/><br>
 
-# PiToThi
-## Ping To Thingspeak
+# PiToThi - Ping To Thingspeak
 
+---
 ## Trivia
 
 This small script was programmed to keep track of round-trip-times to `8.8.8.8`.
-It was utilized to keep track of an inconsistante internet connection in my dorm a few years ago.
+It was utilized to keep track of an inconsistency internet connection in my dorm a few years ago.
 
 ## Dependencies
 
@@ -32,11 +32,3 @@ NoDisplay=false
 Exec=/usr/bin/lxterminal -e $(GIT_ROOT_DIR)/src/start_app.sh
 NotShowIn=GNOME;KDE;XFCE;
 ```
-
-## Authors
-
-* **Philipp Schubaur** - *Initial work*
-
-## License
-
-This project is licensed under the GNU GPLv3 License
