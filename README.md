@@ -1,4 +1,12 @@
-# Script to check for ping on dorm room
+<img align="right" height="250" alt="Schubi93" src="misc/PiToThi.png"/>
+
+# PiToThi
+## Ping To Thingspeak
+
+## Trivia
+
+This small script was programmed to keep track of round-trip-times to `8.8.8.8`.
+It was utilized to keep track of an inconsistante internet connection in my dorm a few years ago.
 
 ## Dependencies
 
