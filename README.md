@@ -6,6 +6,7 @@
 
 This small script was programmed to keep track of round-trip-times to `8.8.8.8`.
 It was utilized to keep track of an inconsistent internet connection in my flat a some time ago.
+It was running on an `RaspbianOS`, therefore a heading for creating an autostart element exists.
 
 ## :page_facing_up: Dependencies
 
