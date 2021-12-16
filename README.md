@@ -1,4 +1,4 @@
-<img align="right" height="250" alt="Schubi93" src="misc/PiToThi.png"/><br>
+<img align="right" height="250" alt="Schubi93" src="misc/PiToThi.png"/>
 
 # PiToThi - Ping To Thingspeak
 
