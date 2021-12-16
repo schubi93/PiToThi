@@ -2,13 +2,12 @@
 
 # PiToThi - Ping To Thingspeak
 
----
-## Trivia
+## :heavy_dollar_sign: `man PiToThi`
 
 This small script was programmed to keep track of round-trip-times to `8.8.8.8`.
 It was utilized to keep track of an inconsistency internet connection in my dorm a few years ago.
 
-## Dependencies
+## :page_facing_up: Dependencies
 
 If needed, install `pip3` via `sudo apt install python3-pip`
 
@@ -19,7 +18,7 @@ pip3 install thingspeak
 pip3 install pythonping
 ```
 
-## Autostart
+## :arrows_clockwise: Autostart
 
 Edit ` /etc/xdg/autostart/RPi-infoscreen.desktop` with
 
