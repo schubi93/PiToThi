@@ -5,7 +5,7 @@
 ## :heavy_dollar_sign: `man PiToThi`
 
 This small script was programmed to keep track of round-trip-times to `8.8.8.8`.
-It was utilized to keep track of an inconsistency internet connection in my dorm a few years ago.
+It was utilized to keep track of an inconsistent internet connection in my flat a some time ago.
 
 ## :page_facing_up: Dependencies
 
